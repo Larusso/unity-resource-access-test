@@ -18,9 +18,6 @@ main() {
 
     $cargo test --target $TARGET --release
     $cargo test --target $TARGET
-
-    $cargo run --target $TARGET --bin uvm -- --help
-    $cargo run --target $TARGET --bin uvm --release -- --help
  }
 
 # we don't run the "test phase" when doing deploys

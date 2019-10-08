@@ -1,6 +1,6 @@
 use reqwest::{Client, Url, Result, Response};
 
-const BASE_URL: &str = "http://download.unity3d.com/download_unity/";
+const BASE_URL: &str = "https://download.unity3d.com/download_unity/";
 
 fn load_resource() -> Result<Response> {
     let client = Client::new();
